@@ -65,7 +65,7 @@ class _UpdatePasswordScreenState extends State<UpdatePasswordScreen> {
     FocusScope.of(context).unfocus();
     _syncControllerState();
     _controller.changePassword(
-      onSuccess: () => context.go(ProfileRouteNames.home),
+      onSuccess: () => context.pop(),
     );
   }
 
