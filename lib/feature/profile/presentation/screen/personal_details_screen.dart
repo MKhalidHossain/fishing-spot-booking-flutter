@@ -148,7 +148,7 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
             ProfileTextField(
               label: 'Write A Description About You',
               controller: _descriptionController,
-              hint: '',
+              hint: 'Give a brief description about yourself',
               maxLines: 4,
             ),
             const SizedBox(height: 14),
