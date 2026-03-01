@@ -22,7 +22,7 @@ class ProfileController extends GetxController {
     name: 'Unknown User',
     email: 'you@gmail.com',
     phone: '(000) 000-0000',
-    description: '',
+    description: 'I am a new user.',
     avatarAssetPath: 'assets/images/Profile_avatar_placeholder_large.png',
     avatarUrl: '',
     avatarBytes: null,
